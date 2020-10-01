@@ -7,7 +7,7 @@ pygame.init()
 
 height=600
 width=600
-bg_color=(0,0,0)
+bg_color=(255,255,255)
 display=pygame.display.set_mode((width,height))
 points=[]
 
@@ -45,7 +45,7 @@ class rose:
 
 			
 
-a=rose(3,47,crimson)
+a=rose(3,47,(0,0,0))
 a.point()
 a.draw()
 loop = True
